@@ -2,126 +2,152 @@
 
 ALL_DICT = {
     # числа, порядок 1
-    'ноль': {'value': 0, 'type': 'digit', 'order': 1},
-    'нуль': {'value': 0, 'type': 'digit', 'order': 1},
-    'один': {'value': 1, 'type': 'digit', 'order': 1},
-    'одна': {'value': 1, 'type': 'digit', 'order': 1},
-    'два': {'value': 2, 'type': 'digit', 'order': 1},
-    'две': {'value': 2, 'type': 'digit', 'order': 1},
+    u'ноль': {'value': 0, 'type': 'digit', 'order': 1},
+    u'нуль': {'value': 0, 'type': 'digit', 'order': 1},
+    u'нуля': {'value': 0, 'type': 'sign', 'order': 0},
+    u'нулей': {'value': 0, 'type': 'sign', 'order': 0},
+    u'ноля': {'value': 0, 'type': 'sign', 'order': 0},
+    u'нолей': {'value': 0, 'type': 'sign', 'order': 0},
+    u'один': {'value': 1, 'type': 'digit', 'order': 1},
+    u'одна': {'value': 1, 'type': 'digit', 'order': 1},
+    u'единица': {'value': 1, 'type': 'sign', 'order': 0},
+    u'единиц': {'value': 1, 'type': 'sign', 'order': 0},
+    u'единицы': {'value': 1, 'type': 'sign', 'order': 0},
+    u'единичка': {'value': 1, 'type': 'sign', 'order': 0},
+    u'единичек': {'value': 1, 'type': 'sign', 'order': 0},
+    u'два': {'value': 2, 'type': 'digit', 'order': 1},
+    u'две': {'value': 2, 'type': 'digit', 'order': 1},
+    u'двойка': {'value': 2, 'type': 'sign', 'order': 0},
+    u'двоек': {'value': 2, 'type': 'sign', 'order': 0},
     #'двух': {'value': 2, 'type': 'digit', 'order': 1},
     #'дважды': {'value': 2, 'type': 'digit', 'order': 1},
-    'три': {'value': 3, 'type': 'digit', 'order': 1},
+    u'три': {'value': 3, 'type': 'digit', 'order': 1},
     #'трех': {'value': 3, 'type': 'digit', 'order': 1},
     #'трижды': {'value': 3, 'type': 'digit', 'order': 1},
-    'четыре': {'value': 4, 'type': 'digit', 'order': 1},
+    u'четыре': {'value': 4, 'type': 'digit', 'order': 1},
     #'четырех': {'value': 4, 'type': 'digit', 'order': 1},
     #'четырежде': {'value': 4, 'type': 'digit', 'order': 1},
-    'пять': {'value': 5, 'type': 'digit', 'order': 1},
+    u'пять': {'value': 5, 'type': 'digit', 'order': 1},
     #'пяти': {'value': 5, 'type': 'digit', 'order': 1},
-    'шесть': {'value': 6, 'type': 'digit', 'order': 1},
+    u'шесть': {'value': 6, 'type': 'digit', 'order': 1},
     #'шести': {'value': 6, 'type': 'digit', 'order': 1},
-    'семь': {'value': 7, 'type': 'digit', 'order': 1},
+    u'семь': {'value': 7, 'type': 'digit', 'order': 1},
+    u'семерки': {'value': 7, 'type': 'sign', 'order': 0},
+    u'семерка': {'value': 7, 'type': 'sign', 'order': 0},
+    u'семерок': {'value': 7, 'type': 'sign', 'order': 0},
+    u'семёрки': {'value': 7, 'type': 'sign', 'order': 0},
+    u'семёрка': {'value': 7, 'type': 'sign', 'order': 0},
+    u'семёрок': {'value': 7, 'type': 'sign', 'order': 0},
     #'семи': {'value': 7, 'type': 'digit', 'order': 1},
-    'восемь': {'value': 8, 'type': 'digit', 'order': 1},
+    u'восемь': {'value': 8, 'type': 'digit', 'order': 1},
     #'восьми': {'value': 8, 'type': 'digit', 'order': 1},
-    'девять': {'value': 9, 'type': 'digit', 'order': 1},
+    u'девять': {'value': 9, 'type': 'digit', 'order': 1},
     #'девяти': {'value': 9, 'type': 'digit', 'order': 1},
 
     # числа, порядок 1
-    'десять': {'value': 10, 'type': 'digit', 'order': 2},
+    u'десять': {'value': 10, 'type': 'digit', 'order': 2},
     #'десяти': {'value': 10, 'type': 'digit', 'order': 1},
-    'одиннадцать': {'value': 11, 'type': 'digit', 'order': 2},
+    u'одиннадцать': {'value': 11, 'type': 'digit', 'order': 2},
     #'одинадцати': {'value': 11, 'type': 'digit', 'order': 1},
-    'двенадцать': {'value': 12, 'type': 'digit', 'order': 2},
+    u'двенадцать': {'value': 12, 'type': 'digit', 'order': 2},
     #'двенадцати': {'value': 12, 'type': 'digit', 'order': 1},
-    'тринадцать': {'value': 13, 'type': 'digit', 'order': 2},
+    u'тринадцать': {'value': 13, 'type': 'digit', 'order': 2},
     #'тренадцати': {'value': 13, 'type': 'digit', 'order': 1},
-    'четырнадцать': {'value': 14, 'type': 'digit', 'order': 1},
+    u'четырнадцать': {'value': 14, 'type': 'digit', 'order': 1},
     #'четырнадцати': {'value': 14, 'type': 'digit', 'order': 1},
-    'пятнадцать': {'value': 15, 'type': 'digit', 'order': 1},
+    u'пятнадцать': {'value': 15, 'type': 'digit', 'order': 1},
     #'пятнадцати': {'value': 15, 'type': 'digit', 'order': 1},
-    'шестнадцать': {'value': 16, 'type': 'digit', 'order': 1},
+    u'шестнадцать': {'value': 16, 'type': 'digit', 'order': 1},
     #'шестнадцати': {'value': 16, 'type': 'digit', 'order': 1},
-    'семнадцать': {'value': 17, 'type': 'digit', 'order': 1},
+    u'семнадцать': {'value': 17, 'type': 'digit', 'order': 1},
     #'семнадцати': {'value': 17, 'type': 'digit', 'order': 1},
-    'восемнадцать': {'value': 18, 'type': 'digit', 'order': 2},
+    u'восемнадцать': {'value': 18, 'type': 'digit', 'order': 2},
     #'восемнадцати': {'value': 18, 'type': 'digit', 'order': 1},
-    'девятнадцати': {'value': 19, 'type': 'digit', 'order': 1},
+    u'девятнадцати': {'value': 19, 'type': 'digit', 'order': 1},
     #'девятнадцать': {'value': 19, 'type': 'digit', 'order': 1},
 
     # числа, порядок 2
-    'двадцать': {'value': 20, 'type': 'digit', 'order': 2},
+    u'двадцать': {'value': 20, 'type': 'digit', 'order': 2},
     #'двадцати'{'value': 20, 'type': 'digit', 'order': 2},
-    'тридцать': {'value': 30, 'type': 'digit', 'order': 2},
+    u'тридцать': {'value': 30, 'type': 'digit', 'order': 2},
     #'тридцати'{'value': 30, 'type': 'digit', 'order': 2},
-    'сорок': {'value': 40, 'type': 'digit', 'order': 2},
+    u'сорок': {'value': 40, 'type': 'digit', 'order': 2},
     #'сорока'{'value': 40, 'type': 'digit', 'order': 2},
-    'пятьдесят': {'value': 50, 'type': 'digit', 'order': 2},
+    u'пятьдесят': {'value': 50, 'type': 'digit', 'order': 2},
     #'пятидесяти'{'value': 50, 'type': 'digit', 'order': 2},
-    'шеcтьдесят': {'value': 60, 'type': 'digit', 'order': 2},
+    u'шеcтьдесят': {'value': 60, 'type': 'digit', 'order': 2},
     #'шестидесяти'{'value': 60, 'type': 'digit', 'order': 2},
-    'семьдесят': {'value': 70, 'type': 'digit', 'order': 2},
+    u'семьдесят': {'value': 70, 'type': 'digit', 'order': 2},
     #'семидесяти'{'value': 70, 'type': 'digit', 'order': 2},
-    'восемьдесят': {'value': 80, 'type': 'digit', 'order': 2},
+    u'восемьдесят': {'value': 80, 'type': 'digit', 'order': 2},
     #'восьмидесяти'{'value': 80, 'type': 'digit', 'order': 2},
-    'девяносто': {'value': 90, 'type': 'digit', 'order': 2},
+    u'девяносто': {'value': 90, 'type': 'digit', 'order': 2},
     #'девяноста'{'value': 90, 'type': 'digit', 'order': 2},
 
     # числа, порядок 3
-    'сто': {'value': 100, 'type': 'digit', 'order': 3},
-    'сотня': {'value': 100, 'type': 'digit', 'order': 3},
-    'двести': {'value': 200, 'type': 'digit', 'order': 3},
-    'триста': {'value': 300, 'type': 'digit', 'order': 3},
-    'четыреста': {'value': 400, 'type': 'digit', 'order': 3},
-    'пятьсот': {'value': 500, 'type': 'digit', 'order': 3},
-    'шестьсот': {'value': 600, 'type': 'digit', 'order': 3},
-    'семьсот': {'value': 700, 'type': 'digit', 'order': 3},
-    'восемьсот': {'value': 800, 'type': 'digit', 'order': 3},
-    'девятьсот': {'value': 900, 'type': 'digit', 'order': 3},
-    """
-    'двухсот' {'value': 200, 'type': 'digit', 'order': 3},
-    'двухста' {'value': 200, 'type': 'digit', 'order': 3},
-    'трехсот' {'value': 300, 'type': 'digit', 'order': 3},
-    'трехста' {'value': 300, 'type': 'digit', 'order': 3},
-    'четырехсот' {'value': 400, 'type': 'digit', 'order': 3},
-    'пятиста' {'value': 500, 'type': 'digit', 'order': 3},
-    'шестиста' {'value': 600, 'type': 'digit', 'order': 3},
-    'семиста' {'value': 700, 'type': 'digit', 'order': 3},
-    'семисот' {'value': 700, 'type': 'digit', 'order': 3},
-    'восьмиста' {'value': 800, 'type': 'digit', 'order': 3},
-    'восьмисот' {'value': 800, 'type': 'digit', 'order': 3},
-    'девятиста' {'value': 900, 'type': 'digit', 'order': 3},
-    'девятисот' {'value': 900, 'type': 'digit', 'order': 3},
-    """
+    u'сто': {'value': 100, 'type': 'digit', 'order': 3},
+    u'сотня': {'value': 100, 'type': 'digit', 'order': 3},
+    u'двести': {'value': 200, 'type': 'digit', 'order': 3},
+    u'триста': {'value': 300, 'type': 'digit', 'order': 3},
+    u'четыреста': {'value': 400, 'type': 'digit', 'order': 3},
+    u'пятьсот': {'value': 500, 'type': 'digit', 'order': 3},
+    u'шестьсот': {'value': 600, 'type': 'digit', 'order': 3},
+    u'семьсот': {'value': 700, 'type': 'digit', 'order': 3},
+    u'восемьсот': {'value': 800, 'type': 'digit', 'order': 3},
+    u'девятьсот': {'value': 900, 'type': 'digit', 'order': 3},
+
     # кванторы порядка
-    'десятка': {'value': 10, 'type': 'degree', 'order': 2},
-    'десятков': {'value': 10, 'type': 'degree', 'order': 2},
-    'сотни': {'value': 100, 'type': 'degree', 'order': 3},
-    'сотен': {'value': 100, 'type': 'degree', 'order': 3},
-    'тысяча': {'value': 1000, 'type': 'degree', 'order': 4},
-    'тысячи': {'value': 1000, 'type': 'degree', 'order': 4},
-    'тысяч': {'value': 1000, 'type': 'degree', 'order': 4},
-    'миллионов': {'value': 1000000, 'type': 'degree', 'order': 7},
-    'миллион': {'value': 1000000, 'type': 'degree', 'order': 7},
-    'миллиона': {'value': 1000000, 'type': 'degree', 'order': 7},
-    'миллиард': {'value': 1000000000, 'type': 'degree', 'order': 10},
-    'миллиарда': {'value': 1000000000, 'type': 'degree', 'order': 10},
-    'миллиардов': {'value': 1000000000, 'type': 'degree', 'order': 10},
+    u'десятка': {'value': 10, 'type': 'degree', 'order': 2},
+    u'десятков': {'value': 10, 'type': 'degree', 'order': 2},
+    u'сотни': {'value': 100, 'type': 'degree', 'order': 3},
+    u'сотен': {'value': 100, 'type': 'degree', 'order': 3},
+    u'тысяча': {'value': 1000, 'type': 'degree', 'order': 4},
+    u'тысячи': {'value': 1000, 'type': 'degree', 'order': 4},
+    u'тысяч': {'value': 1000, 'type': 'degree', 'order': 4},
+    u'миллионов': {'value': 1000000, 'type': 'degree', 'order': 7},
+    u'миллион': {'value': 1000000, 'type': 'degree', 'order': 7},
+    u'миллиона': {'value': 1000000, 'type': 'degree', 'order': 7},
+    u'миллиард': {'value': 1000000000, 'type': 'degree', 'order': 10},
+    u'миллиарда': {'value': 1000000000, 'type': 'degree', 'order': 10},
+    u'миллиардов': {'value': 1000000000, 'type': 'degree', 'order': 10},
 }
 
 
 def convert(string):
+    """
+    Конвертирует словесное представление в число
+
+    :param string: строка
+    :return: целое число, которое удалось получить из строки
+    """
     res = 0
     degree = 0
     for token in string.split():
+        operand = None
         if token in ALL_DICT:
             operand = ALL_DICT[token]
+        else:
+            try:
+                number = int(token)
+                operand = {'value': number, 'type': 'digit', 'order': len(str(number))}
+            except TypeError:
+                pass
 
+        if operand:
             if operand['type'] == 'degree' and res == 0:
                 operand['type'] = 'digit'
 
             if operand['type'] == 'degree':
                 res *= operand['value']
+            elif operand['type'] == 'sign':
+                last_digit = res % 10
+                res /= 10
+                if operand['value'] == 0:
+                    res *= 10**last_digit
+                else:
+                    for i in xrange(last_digit):
+                        res *= 10
+                        res += operand['value']
             elif degree > operand['order']:
                 res += operand['value']
             else:
